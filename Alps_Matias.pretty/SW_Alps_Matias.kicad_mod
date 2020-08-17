@@ -24,4 +24,9 @@
   (fp_line (start -7.85 6.5) (end -7.85 -6.5) (layer F.SilkS) (width 0.12))
   (pad 2 thru_hole circle (at 2.5 -4.5) (size 2.25 2.25) (drill 1.47) (layers *.Cu B.Mask))
   (pad 1 thru_hole circle (at -2.5 -4) (size 2.25 2.25) (drill 1.47) (layers *.Cu B.Mask))
+  (model ${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Alps_Matias.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
